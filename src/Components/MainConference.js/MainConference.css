@@ -1,0 +1,9 @@
+.main-conference {
+    padding: 3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,59 @@
+.why-we-matter {
+    background: #000;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-we-matter h2 {
+    font-size: 5rem;
+    padding: 3rem;
+    color: yellow;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-text {
+    width: 45vw;
+    margin-right: 1rem;
+}
+
+.content-text h3 {
+    font-size: 2.5rem;    
+    padding: 1rem 0;
+}
+
+.content-text p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.why-we-matter img {
+    height: 300px;
+    margin-left: 1rem;
+}
+
+.why-we-matter-button {
+    border: 1px solid white;
+    padding: 1rem 1.2rem;
+    margin: 1.5rem;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+
+.button-icon-gap {
+    padding-right: 0.5rem;
+}

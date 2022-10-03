@@ -1,0 +1,14 @@
+@keyframes ease-out {
+    from {font-size: 0;}
+    to {font-size: 2rem;}
+}
+
+.meetups {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    animation-duration: 1s;
+    animation-name: ease-out;
+    height: 100%;
+}

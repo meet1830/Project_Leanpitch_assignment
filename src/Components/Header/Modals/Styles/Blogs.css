@@ -1,0 +1,31 @@
+.blogs-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.blog {
+    height: 11rem;
+    width: 16rem;
+    background: url(../../../../Assests/webinar.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 1rem;
+    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.blog-title {
+    padding: 0.1rem 0.5rem;
+    line-height: 1.1;
+    color: yellow;
+}
+
+.blog-author {
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+}

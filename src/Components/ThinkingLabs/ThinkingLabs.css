@@ -1,0 +1,55 @@
+.thinking-labs {
+    height: 100vh;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.content h2 {
+    font-size: 4rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: red;
+}
+
+.content p {
+    line-height: 1.4;
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.content-bold {
+    font-weight: bold;
+}
+
+.thinking-labs img {
+    width: 52vw;
+    padding: 0 2rem;
+}
+
+.content button {
+    border: none;
+    padding: 0.75rem 2.5rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.button-span {
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,14 @@
+.main-videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-videos-wrapper {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,6 @@
+.pmSpeaks {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}

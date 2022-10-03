@@ -1,0 +1,28 @@
+.webinars-wrapper {
+    height: 100%;
+}
+
+.webinar {
+    height: 11rem;
+    width: 18rem;
+    background: url(../../../../Assests/webinar.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.webinar-title {
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+    line-height: 1.1;
+    color: yellow;
+}
+
+.webinar-date {
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+    color: white;
+}

@@ -1,0 +1,84 @@
+.trainings {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+
+.training {
+  width: 16rem;
+  height: 18rem;
+  margin: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  background-color: rgb(61, 103, 163);
+}
+
+.training img {
+  height: 3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+
+.title {
+  font-size: 1.35rem;
+  font-weight: bold;
+  padding-left: 0.7rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.details {
+  margin: 0.3rem auto;
+  background-color: rgb(35, 59, 94);
+  margin-bottom: 0.5rem;
+}
+
+.details .first-p {
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  padding-left: 0.8rem;
+  padding-bottom: 0.4rem;
+}
+
+.details .second-p {
+  padding: 0.3rem;
+  padding-left: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+}
+
+.button-wrapper button {
+  cursor: pointer;
+}
+
+.training button {
+  border: none;
+  padding: 0.6rem 3.5rem;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

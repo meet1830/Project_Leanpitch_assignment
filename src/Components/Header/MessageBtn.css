@@ -1,0 +1,17 @@
+.message-button {
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  right: 0.5rem;
+  border-style: none;
+  padding: 1.2rem 0.85rem;
+  width: 7.2rem;
+  background-color: rgb(225, 104, 63);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}

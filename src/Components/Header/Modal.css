@@ -1,0 +1,29 @@
+.header-modal-head {
+    margin: 2.5%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.modal-head {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 6;
+}
+
+.header-ul li {
+    list-style-type: none;
+    font-size: 1.7rem;
+    padding: 0.4rem;
+    padding-right: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.show-modals {
+    height: 80vh;
+    width: 70vw;
+    border: 7px solid yellow;
+    background-color: rgba(0, 0, 0, 0.35);
+}

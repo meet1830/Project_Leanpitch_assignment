@@ -1,0 +1,13 @@
+.trainings {
+    max-height: inherit;
+    max-width: inherit;
+    height: 100%;
+    overflow: auto;
+}
+
+.trainings-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
